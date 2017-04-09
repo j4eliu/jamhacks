@@ -1,5 +1,5 @@
 # jamhacks
-
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -74,3 +74,78 @@ h1 {
 
 document.getElementsByTagName("h1")[0].style.fontSize = "80px"
 ;
+
+<html>
+  <head>
+    <title>Study Buddy</title>
+    <style>
+      h1 {
+        color: white;
+        font-family: Arial Black;
+        font-size: 77px;
+        text-align: center;
+      }
+      
+      h2 {
+        color: white;
+        font-family: Tahoma;
+      }
+      
+      h3 {
+        color: white;
+        font-family: Arial;
+        text-align: center;
+        font-size: 20px;
+      }
+      p {
+        color: rgb(224, 224, 224);
+        font-family: Tahoma;
+        text-align: center;
+        font-size: 30px;
+      }
+     
+      .button{
+        background-color: white;
+        border: none;
+        color: rgb(0, 0, 102);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 500px;
+        cursor: pointer;
+      }
+      
+      label{
+        color:white;
+        font-size: 20px;
+        font-family: arial;
+      }
+      
+      body {
+        background-image: url(http://wallpapercave.com/wp/doAHAI6.jpg);
+      }
+      
+    </style>
+  </head>  
+  <h1>INPUT INFORMATION</h1>
+  <hr><p> Welcome! Please input your name, age, your average, and the course code of the subject you wish to study with your Buddy. <br>We will find you a pefect Study Buddy in no time!  </p><hr/>
+  
+  <h2><i>Your Information</i></h2>
+ <form id = "Your Information">
+   <label for = "name">Name :
+     <input id = "name" name = "name" type="text"/><br>
+    <label for = "age">Age :
+      <input id = "age" age = "age" type="text"/><br>
+    <label for = "average">Average :
+   <input id = "average" average = "average" type="text"/><br>
+    <label for = "course code">Course Code :
+   <input id = "course code" course code = "course code" type="text"/><br>
+    </label>
+      
+<hr><h3>Once you are done entering in your information, please click the button below. <br>
+  Please wait patiently as we process your results and find a perfect Study Buddy for you. </h3></hr>
+
+<input type="button" class="button" value="Input Button">
+<html/>
