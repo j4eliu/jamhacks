@@ -1,3 +1,3 @@
 # jamhacks
 
-prihnt "hello world"
+print "hello world"
