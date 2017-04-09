@@ -1,1 +1,3 @@
 # jamhacks
+
+prihnt "hello world"
