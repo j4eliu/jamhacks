@@ -149,3 +149,28 @@ document.getElementsByTagName("h1")[0].style.fontSize = "80px"
 
 <input type="button" class="button" value="Input Button">
 <html/>
+
+<html>
+<style>
+  
+body {
+  background-image: url(http://www.millennium.co.tz/wordpress/wp-content/uploads/2014/11/Colorful-Beach-Sunrise-Hd-Background-9-HD-Wallpapers.jpg)
+}
+
+h1{
+  color: white;
+  font-family: Arial black;
+  text-align: center;
+}
+  
+ p{
+   color: white;
+   font-family: Arial black:
+      
+ }
+</style>
+<h1>YOUR STUDY BUDDY</h1>
+<body>
+	<p>Here are the results.</p>
+</body>
+</html>
